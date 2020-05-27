@@ -7,8 +7,7 @@ kubectl edit configmap -n monasca standalone-kafka-zookeeper
     ZK_SNAP_RETAIN_COUNT=${ZK_SNAP_RETAIN_COUNT:-30}
     ZK_PURGE_INTERVAL=${ZK_PURGE_INTERVAL:-24}
 
-30 file
-24 hour
+30 is file And 24 is hour
 
 save and restart the zookeeper POD
 
